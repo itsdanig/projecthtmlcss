@@ -43,6 +43,7 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    line-height: 75px;
 }
 
 #navbar li a {
@@ -70,7 +71,7 @@ h1, h2 {
 #background-img {
     height: 600px;
     width: 100%;
-    background: url(../images/backgroundimg.jpg);
+   background: url(../images/lake-atitlan-guatemala.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -80,12 +81,12 @@ h1, h2 {
 
 .wrapper {
     margin-top: 10%;
-    line-height: 150px;
+    line-height: 140px;
 }
 
 .wrapper h1 {
     font-family: fjalla one, sans-serif;
-    font-size: 190%;
+    font-size: 220%;
     margin-bottom: 52px;
     text-align: center;
     text-transform: uppercase;
@@ -151,6 +152,7 @@ h1, h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 
 .container .box {
@@ -161,7 +163,7 @@ h1, h2 {
     margin: 10px;
     box-sizing: border-box;
     display: inline-block;
-    border-radius: 10px;
+    
 }
 
 
@@ -175,6 +177,7 @@ h1, h2 {
     max-width: 100%;
     height: 300px;
     transition: transform 2s;
+    border-radius: 10px;
 }
 
 .container .box:hover .image-box img {
@@ -213,4 +216,18 @@ h1, h2 {
 .container .box .details .content p {
     margin: 10px 0 0;
     padding: 0;
+}
+
+.heading-container {
+    margin-top: 10%;
+    line-height: 150px;
+}
+
+.heading-container h1 {
+    font-family: fjalla one, sans-serif;
+    font-size: 220%;
+    margin-bottom: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
 }
