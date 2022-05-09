@@ -1,1 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: source sans pro, sans-serif;
+    font-weight: 300;
+    color: rgb(38, 25, 17);
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: fjalla one, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(38, 25, 17);
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
+
+/* navigation links */
+
+#navbar {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#navbar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: rgb(38, 25, 17);
+}
+
+#navbar a:hover {
+    border-bottom: 1px solid rgb(191, 175, 160);
+}
+
+.active {
+    border-bottom: 1px solid rgb(191, 175, 160);
+}
