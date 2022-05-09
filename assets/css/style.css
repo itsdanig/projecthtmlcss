@@ -10,6 +10,7 @@ body {
     font-family: source sans pro, sans-serif;
     font-weight: 300;
     color: rgb(38, 25, 17);
+    background-color: rgb(248, 247, 244);
 }
 
 /* headings and logo */
@@ -72,13 +73,14 @@ h1, h2 {
     background: url(../images/backgroundimg.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     opacity: 0.7;
    
 }
 
 .wrapper {
     margin-top: 10%;
+    line-height: 150px;
 }
 
 .wrapper h1 {
@@ -86,7 +88,8 @@ h1, h2 {
     font-size: 190%;
     margin-bottom: 52px;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .about {
@@ -98,8 +101,8 @@ h1, h2 {
 
 
 .about .text-box {
-    background-color: rgb(249, 246, 239);
-    margin: 5px;
+    background-color: rgb(236, 234, 226);
+    margin: 30px;
     margin-bottom: 50px;
     width: 300px;
     padding: 20px;
@@ -113,6 +116,15 @@ h1, h2 {
     font-size: 170%;
     text-transform: uppercase;
     margin: 12px 0;
+    line-height: 60px;
+}
+
+.about .text-box p {
+    color: rgb(38, 25, 17);
+    font-size: 20px;
+    text-transform: lowercase;
+    margin: 12px 0;
+    line-height: 25px;
 }
 
 .about .text-box .about-img {
@@ -125,4 +137,23 @@ h1, h2 {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container {
+    width: 1200px;
+    min-height: 50px;
+    background: rgb(191, 175, 160);
+    margin: 70px auto;
+    display: flex;
+}
+
+.container .box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: rgb(191, 175, 160);
 }
