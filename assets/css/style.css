@@ -23,14 +23,18 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 350%;
+    margin-left: 20px;
+    letter-spacing: 4px;
+    
 }
 
 /* navigation links */
 
 #navbar {
-    font-size: 110%;
+    font-size: 150%;
     letter-spacing: 4px;
+    text-transform: uppercase;
 }
 
 #navbar li {
@@ -62,12 +66,30 @@ h1, h2 {
 }
 
 #background-img {
-    height: 500px;
+    height: 600px;
     width: 100%;
-    background: url(../images/yoga-background.jpg);
+    background: url(../images/0d6ea6d21f4906dfdf0d93550589313c.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    margin: auto;
-    padding: 0;
+    background-position: center;
+    background-size: contain;
+   
+}
+
+#cover-text, #cover-text h2 {
+    color: rgb(38, 25, 17);
+}
+
+#cover-text {
+    font-size: 135%;
+    font-family: fjalla one, source sans pro;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgb(249, 246, 239);
+    bottom: 30px;
+    right: 400px;
+    position: relative;
 }
