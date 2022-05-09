@@ -116,7 +116,13 @@ h1, h2 {
 }
 
 .about .text-box .about-img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.about .text-box .about-img img {
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
