@@ -26,6 +26,7 @@ h1, h2 {
     font-size: 350%;
     margin-left: 20px;
     letter-spacing: 4px;
+    font-weight: lighter;
     
 }
 
@@ -72,6 +73,50 @@ h1, h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    opacity: 0.7;
    
 }
 
+.wrapper {
+    margin-top: 10%;
+}
+
+.wrapper h1 {
+    font-family: fjalla one, sans-serif;
+    font-size: 190%;
+    margin-bottom: 52px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.about {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+
+.about .text-box {
+    background-color: rgb(249, 246, 239);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: rgb(38, 25, 17);
+    position: relative;
+}
+
+.about .text-box h3 {
+    color: rgb(38, 25, 17);
+    font-size: 170%;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+.about .text-box .about-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
