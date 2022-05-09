@@ -161,6 +161,7 @@ h1, h2 {
     margin: 10px;
     box-sizing: border-box;
     display: inline-block;
+    border-radius: 10px;
 }
 
 
