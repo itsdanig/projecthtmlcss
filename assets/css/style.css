@@ -10,7 +10,7 @@ body {
     font-family: source sans pro, sans-serif;
     font-weight: 300;
     color: rgb(38, 25, 17);
-    background-color: rgb(248, 247, 244);
+    background-color: rgb(243, 228, 223);
 }
 
 /* headings and logo */
@@ -34,7 +34,7 @@ h1, h2 {
 /* navigation links */
 
 #navbar {
-    font-size: 150%;
+    font-size: 140%;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
@@ -103,7 +103,7 @@ h1, h2 {
 
 
 .about .text-box {
-    background-color: rgb(236, 234, 226);
+    background-color: rgb(185, 152, 152);
     margin: 30px;
     margin-bottom: 50px;
     width: 350px;
@@ -120,6 +120,7 @@ h1, h2 {
     text-transform: uppercase;
     margin: 12px 0;
     line-height: 60px;
+    font-family: fjalla one, source sans pro;
 }
 
 .about .text-box p {
@@ -128,6 +129,7 @@ h1, h2 {
     text-transform: lowercase;
     margin: 12px 0;
     line-height: 25px;
+
 }
 
 .about .text-box .about-img {
@@ -149,7 +151,7 @@ h1, h2 {
 .container {
     width: 1280px;
     min-height: 500px;
-    background: rgb(248, 247, 244);
+    background: rgb(243, 228, 223);
     margin: 70px auto 0;
     display: flex;
     flex-direction: row;
@@ -161,7 +163,7 @@ h1, h2 {
     position: relative;
     width: 300px;
     height: 300px;
-    background: rgb(236, 234, 226);
+    background: rgb(243, 228, 223);
     margin: 10px;
     box-sizing: border-box;
     display: inline-block;
@@ -285,4 +287,83 @@ h1, h2 {
         margin: 0 auto;
         margin-right: 30px;
     }
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background-color: rgb(185, 152, 152);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .footer-container .abt-us-footer {
+    margin-right: 30px;
+}
+
+footer .footer-container .abt-us-footer {
+    max-width: 40%;
+}
+
+footer .footer-container .abt-us-footer h2 {
+    position: relative;
+    color: whitesmoke;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer .footer-container .abt-us-footer h2:before {
+    content: '';
+    position: relative;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background:whitesmoke;
+
+}
+
+footer .footer-container .abt-us-footer p  {
+    color: whitesmoke;
+}
+
+.socials {
+    margin-top: 20px;
+    display: flex;
+}
+
+.socials li {
+    list-style: none;
+}
+
+.socials li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: rgb(185, 152, 152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.socials li a:hover {
+    background: whitesmoke;
+}
+
+.socials li a .fa {
+    color: whitesmoke;
+    font-size: 20px;
 }
