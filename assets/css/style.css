@@ -333,7 +333,7 @@ footer .footer-container .abt-us-footer h2:before {
 
 }
 
-footer .footer-container .abt-us-footer p  {
+footer p  {
     color: whitesmoke;
 }
 
@@ -366,4 +366,21 @@ footer .footer-container .abt-us-footer p  {
 .socials li a .fa {
     color: whitesmoke;
     font-size: 20px;
+}
+
+.quicklinks {
+    position: relative;
+    width: 25%;
+}
+
+.quicklinks ul li {
+    list-style: none;
+}
+
+
+.quicklinks ul li a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
 }
