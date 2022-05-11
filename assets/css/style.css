@@ -103,7 +103,7 @@ h1, h2 {
 
 
 .about .text-box {
-    background-color: rgb(243, 228, 223);
+    background-color: rgb(206, 184, 189);
     margin: 30px;
     margin-bottom: 50px;
     width: 350px;
@@ -237,8 +237,6 @@ h1, h2 {
 }
 
 
-
-
 /* media queries */
 
 /* for large to medium screens size from 950px and down */
@@ -289,6 +287,7 @@ h1, h2 {
     }
 }
 
+
 /* media queries medium screen size  */
 
 @media (max-width: 600px) {
@@ -337,9 +336,9 @@ h1, h2 {
 
 footer {
     position: relative;
-    width: 100%;
+    width: 95%;
     height: auto;
-    padding: 50px 100px;
+    padding: 10px 40px;
     background-color: rgb(185, 152, 152);
     display: flex;
     justify-content: space-between;
@@ -366,6 +365,7 @@ footer .footer-container .abt-us-footer h2 {
     color: whitesmoke;
     font-weight: 500;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 footer .footer-container .abt-us-footer h2:before {
@@ -381,7 +381,10 @@ footer .footer-container .abt-us-footer h2:before {
 
 footer p  {
     color: whitesmoke;
+    text-align: center;
 }
+
+/* social media */
 
 .socials {
     margin-top: 20px;
@@ -393,14 +396,13 @@ footer p  {
 }
 
 .socials li a {
-    display: inline-block;
     width: 40px;
     height: 40px;
     background: rgb(243, 228, 223);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 30px;
     text-decoration: none;
     border-radius: 4px;
     font-size: 30px;
@@ -475,9 +477,9 @@ footer p  {
 }
 
 .copyright-text {
-    width: 100%;
+    width: 95%;
     background: rgb(185, 152, 152);
-    padding: 8px 100px;
+    padding: 10px 40px;
     text-align: center;
     color: rgb(248, 247, 244);
 }
