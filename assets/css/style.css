@@ -312,7 +312,7 @@ footer .footer-container .abt-us-footer {
 }
 
 footer .footer-container .abt-us-footer {
-    max-width: 40%;
+    width: 40%;
 }
 
 footer .footer-container .abt-us-footer h2 {
@@ -391,4 +391,20 @@ footer p  {
 
 .quicklinks ul li a:hover {
     color: rgb(38, 25, 17);
+}
+
+
+.contact {
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contact .info {
+    position: relative;
+}
+
+.contact .info li {
+    display: flex;
+    margin-bottom: 16px;
+
 }
