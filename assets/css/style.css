@@ -267,7 +267,29 @@ h1, h2 {
         margin: 0 auto;
     }
 
+    footer {
+        padding: 40px;
+        display: inline;
+    }
+    
+    footer .container {
+        flex-direction: column;
+    }
+
+    footer .container .abt-us-footer {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container .abt-us-footer, .quicklinks, .contact {
+        width: 100%;
+    }
+
+    .copyright-text {
+        padding: 8px 40px;
+    }
 }
+
+/* media queries medium screen size  */
 
 @media (max-width: 600px) {
     #navbar{
@@ -287,7 +309,31 @@ h1, h2 {
         margin: 0 auto;
         margin-right: 30px;
     }
+    footer {
+        padding: 40px;
+        display: inline;
+    }
+    
+    footer .container {
+        flex-direction: column;
+    }
+
+    footer .container .abt-us-footer {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container .abt-us-footer, .quicklinks, .contact {
+        width: 100%;
+    }
+
+    .copyright-text {
+        padding: 8px 40px;
+    }
 }
+
+
+/* footer */
+
 
 footer {
     position: relative;
@@ -401,10 +447,37 @@ footer p  {
 
 .contact .info {
     position: relative;
+    
 }
 
 .contact .info li {
     display: flex;
     margin-bottom: 16px;
+}
 
+.contact .info li span:nth-child(1){
+    color: rgb(248, 247, 244);
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact .info li span {
+    color: rgb(248, 247, 244);
+}
+
+.contact .info li a {
+    color: rgb(248, 247, 244);
+    text-decoration: none;
+}
+
+.contact .info li a:hover {
+    color: rgb(38, 25, 17);
+}
+
+.copyright-text {
+    width: 100%;
+    background: rgb(185, 152, 152);
+    padding: 8px 100px;
+    text-align: center;
+    color: rgb(248, 247, 244);
 }
