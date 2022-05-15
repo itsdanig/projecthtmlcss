@@ -72,7 +72,7 @@ h1, h2 {
 #background-img {
     height: 600px;
     width: 100%;
-   background: url(../images/lake-atitlan-guatemala.jpg);
+   background: url(../images/yoga.background2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -365,7 +365,7 @@ footer .footer-container .abt-us-footer h2 {
     color: whitesmoke;
     font-weight: 500;
     margin-bottom: 15px;
-    text-align: center;
+    
 }
 
 footer .footer-container .abt-us-footer h2:before {
@@ -381,7 +381,7 @@ footer .footer-container .abt-us-footer h2:before {
 
 footer p  {
     color: whitesmoke;
-    text-align: center;
+    
 }
 
 /* social media */
@@ -423,6 +423,7 @@ footer p  {
 .quicklinks {
     position: relative;
     width: 25%;
+    margin-right: 100px;
 }
 
 .quicklinks ul li {
@@ -443,8 +444,7 @@ footer p  {
 
 
 .contact {
-    width: calc(35% - 60px);
-    margin-right: 0 !important;
+   margin-left: 600px;
 }
 
 .contact .info {
