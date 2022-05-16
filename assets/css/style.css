@@ -9,8 +9,8 @@
 body {
     font-family: source sans pro, sans-serif;
     font-weight: 300;
-    color: rgb(38, 25, 17);
-    background-color: rgb(243, 228, 223);
+    color: #fefcff;
+    background-color: milk;
 }
 
 /* headings and logo */
@@ -81,8 +81,8 @@ h1, h2 {
 }
 
 .wrapper {
-    margin-top: 10%;
-    line-height: 140px;
+    margin-top: 4%;
+    line-height: 120px;
 }
 
 .wrapper h1 {
@@ -103,7 +103,7 @@ h1, h2 {
 
 
 .about .text-box {
-    background-color: rgb(106, 36, 52);
+    background-color: rgb(124, 98, 105);
     margin: 30px;
     margin-bottom: 50px;
     width: 350px;
@@ -115,7 +115,7 @@ h1, h2 {
 }
 
 .about .text-box h3 {
-    color: rgb(38, 25, 17);
+    color: rgb(201, 190, 190);
     font-size: 170%;
     text-transform: uppercase;
     margin: 12px 0;
@@ -124,7 +124,7 @@ h1, h2 {
 }
 
 .about .text-box p {
-    color: rgb(38, 25, 17);
+    color: rgb(201, 190, 190);
     font-size: 20px;
     text-transform: lowercase;
     margin: 12px 0;
@@ -148,14 +148,16 @@ h1, h2 {
     transform: translateX(-50%);
 }
 
+
 .container {
     width: 1280px;
-    min-height: 500px;
+    min-height: 300px;
     background: rgb(243, 228, 223);
-    margin: 70px auto 0;
+    margin: 20px auto 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 4%;
     
 }
 
@@ -223,8 +225,8 @@ h1, h2 {
 }
 
 .heading-container {
-    margin-top: 10%;
-    line-height: 150px;
+    margin-top: 4%;
+    line-height: 120px;
 }
 
 .heading-container h1 {
@@ -299,7 +301,42 @@ h1, h2 {
     }
 }
 
+/* contact us */
 
+.contact-wrapper {
+    margin: 0;
+    padding: 0;
+    background: url(../images/kilimanjaro-studioz-bg-contact5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.title-contact {
+    margin-top: 100px;
+    color: whitesmoke;
+}
+
+.title-contact h1 {
+    font-size: 32px;
+    line-height: 10px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: whitesmoke;
+    font-size: 18px;
+    
+}
 /* footer */
 
 
