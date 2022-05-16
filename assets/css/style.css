@@ -152,7 +152,7 @@ h1, h2 {
 .container {
     width: 1280px;
     min-height: 300px;
-    background: rgb(243, 228, 223);
+    background: #fefcff;
     margin: 20px auto 0;
     display: flex;
     flex-direction: row;
@@ -165,7 +165,7 @@ h1, h2 {
     position: relative;
     width: 300px;
     height: 300px;
-    background: rgb(243, 228, 223);
+    background: #fefcff;
     margin: 10px;
     box-sizing: border-box;
     display: inline-block;
@@ -306,12 +306,12 @@ h1, h2 {
 .contact-wrapper {
     margin: 0;
     padding: 0;
-    background: url(../images/kilimanjaro-studioz-bg-contact5.jpg);
+    background: url(../images/thomas-ciszewski-contact6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
     width: 100%;
-    opacity: 0.9;
+    
 }
 
 .title-contact {
