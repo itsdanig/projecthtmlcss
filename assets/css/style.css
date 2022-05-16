@@ -72,7 +72,7 @@ h1, h2 {
 #background-img {
     height: 600px;
     width: 100%;
-   background: url(../images/yoga.background2.jpg);
+   background: url(../images/eneko-urunuela-background6.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -272,6 +272,16 @@ h1, h2 {
     .copyright-text {
         padding: 8px 40px;
     }
+
+    .contact-wrapper {
+       display: inline;
+       justify-content:center;
+       padding: 50px 0;
+    }
+    .contact-box {
+        display: inline;
+    }
+
 }
 
 
@@ -294,12 +304,23 @@ h1, h2 {
         display: inline;
         margin: 0 auto;
         margin-right: 30px;
+        overflow: hidden;
+
     }
 
     .copyright-text {
         padding: 8px 40px;
     }
+    .contact-wrapper {
+        display: inline;
+        justify-content:center;
+        padding: 50px 0;
+     }
+     .contact-box {
+         display: inline;
+     }
 }
+
 
 /* contact us */
 
@@ -375,19 +396,52 @@ form .submit:hover {
 
 .footer .social a {
     font-size: 24px;
-    color: inherit;
+    color: rgb(38, 25, 17);
     border: 1px solid #fefcff;
     width: 40px;
     height: 40px;
     line-height: 30px;
     display: inline-block;
     text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.7;
+}
+
+.footer .social a:hover {
+    opacity: 0.9;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a {
+     color: rgb(38, 25, 17);
+     text-decoration: none;
+     opacity: 0.8;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.footer ul li:hover {
+    opacity: 1;
 }
 
 .copyright-text {
-    width: 95%;
-    background: rgb(185, 152, 152);
-    padding: 10px 40px;
+    margin-top: 15px;
     text-align: center;
-    color: rgb(248, 247, 244);
+    font-size: 18px;
+    color: rgb(124, 98, 105);
+
 }
