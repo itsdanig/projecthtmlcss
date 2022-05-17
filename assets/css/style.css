@@ -324,62 +324,6 @@ h1, h2 {
 
 /* contact us */
 
-.contact-wrapper {
-    background: #fefcff;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
-    width: 100%;
-    overflow: hidden;
-    text-align: center;
-    line-height: 120px;
-    
-    
-}
-
-.title-contact {
-    margin-top: 100px;
-    color: whitesmoke;
-}
-
-.title-contact h1 {
-    font-size: 28px;
-    line-height: 10px;
-}
-
-form {
-    margin-top: 10px;
-}
-
-.form-control {
-    width: 600px;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid gray;
-    color: #fefcff;
-    font-size: 18px;
-    margin-bottom: 2px;
-    
-}
-
-input {
-    height: 30px;
-}
-
-form .submit {
-    background-color: rgb(124, 98, 105);
-    border-color: transparent;
-    font-size: 20px;
-    letter-spacing: 1px;
-    height: 50px;
-    margin-top: 5px;
-}
-
-form .submit:hover {
-    background-color: rgb(185, 152, 152);
-    cursor: pointer;
-}
-
 
 /* footer */
 
