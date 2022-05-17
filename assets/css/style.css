@@ -420,6 +420,36 @@ h1, h2 {
 .contact-form .send-btn:hover {
     background: rgb(217, 124, 80);
 }
+
+/* alert message */
+
+.alert-success {
+    z-index: 1;
+    background: rgb(22, 44, 58);
+    font-size: 18px;
+    padding: 20px 40px;
+    min-width: 420px;
+    position: fixed;
+    right: 0;
+    top: 10px;
+    border-left: 8px sold rgb(219, 169, 136);
+    border-radius: 4px;
+}
+
+.alert-error {
+    z-index: 1;
+    background: rgb(214, 149, 118);
+    font-size: 18px;
+    padding: 20px 40px;
+    min-width: 420px;
+    position: fixed;
+    right: 0;
+    top: 10px;
+    border-left: 8px sold rgb(219, 169, 136);
+    border-radius: 4px;
+}
+
+
 /* footer */
 
 .footer {
