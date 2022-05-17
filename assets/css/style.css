@@ -9,8 +9,8 @@
 body {
     font-family: source sans pro, sans-serif;
     font-weight: 300;
-    color: #fefcff;
-    background-color: milk;
+    color: rgb(22, 44, 58);
+    background-color: rgb(22, 44, 58);
 }
 
 /* headings and logo */
@@ -19,7 +19,7 @@ h1, h2 {
     font-family: fjalla one, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: rgb(38, 25, 17);
+    color: rgb(217, 124, 80);
 }
 
 #logo {
@@ -48,15 +48,15 @@ h1, h2 {
 
 #navbar li a {
     text-decoration: none;
-    color: rgb(38, 25, 17);
+    color: rgb(217, 124, 80);
 }
 
 #navbar a:hover {
-    border-bottom: 1px solid rgb(191, 175, 160);
+    border-bottom: 1px solid rgb(219, 169, 136);
 }
 
 .active {
-    border-bottom: 1px solid rgb(191, 175, 160);
+    border-bottom: 1px solid rgb(219, 169, 136);
 }
 
 
@@ -103,7 +103,7 @@ h1, h2 {
 
 
 .about .text-box {
-    background-color: rgb(124, 98, 105);
+    background-color: rgb(250, 203, 181);
     margin: 30px;
     margin-bottom: 50px;
     width: 350px;
@@ -115,7 +115,7 @@ h1, h2 {
 }
 
 .about .text-box h3 {
-    color: rgb(201, 190, 190);
+    color: rgb(217, 124, 80);
     font-size: 170%;
     text-transform: uppercase;
     margin: 12px 0;
@@ -124,11 +124,11 @@ h1, h2 {
 }
 
 .about .text-box p {
-    color: rgb(201, 190, 190);
+    color: rgb(38, 25, 17);
     font-size: 20px;
     text-transform: lowercase;
     margin: 12px 0;
-    line-height: 25px;
+    line-height: 30px;
 
 }
 
@@ -152,12 +152,14 @@ h1, h2 {
 .container {
     width: 1280px;
     min-height: 300px;
-    background: #fefcff;
+    background: rgb(22, 44, 58);
     margin: 20px auto 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 4%;
+    padding-bottom: 30px;
+    
     
 }
 
@@ -165,7 +167,7 @@ h1, h2 {
     position: relative;
     width: 300px;
     height: 300px;
-    background: #fefcff;
+    background: rgb(22, 44, 58);
     margin: 10px;
     box-sizing: border-box;
     display: inline-block;
@@ -326,7 +328,7 @@ h1, h2 {
 /* contact us */
  
 .contact-section {
-    background: rgb(249, 246, 239);
+    background: rgb(22, 44, 58);
     min-height: 100vh;
     background-size: cover;
     align-items: center;
@@ -336,7 +338,7 @@ h1, h2 {
 }
 
 .contact-info {
-    color: rgb(38, 25, 17);
+    color: #fefcff;
     max-width: 500px;
     line-height: 65px;
     padding-left: 50px;
@@ -358,7 +360,7 @@ h1, h2 {
 }
 
 .contact-form h2 {
-    color: rgb(38, 25, 17);
+    color: rgb(217, 124, 80);
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
@@ -366,7 +368,7 @@ h1, h2 {
 }
 
 .contact-form .text {
-    background: #000;
+    background: rgba(0, 0, 0, 0.1);
     color: #fefcff;
     border: none;
     width: calc(50%-10px);
@@ -385,7 +387,7 @@ h1, h2 {
 }
 
 .contact-form textarea {
-    background: #000;
+    background: rgba(0, 0, 0, 0.1);
     color: #fefcff;
     border: none;
     width: 100%;
@@ -404,7 +406,7 @@ h1, h2 {
 
 .contact-form .send-btn{
     float: right;
-    background: rgb(22, 44, 58);
+    background: rgb(19, 32, 41);
     color: rgb(219, 169, 136);
     border: none;
 
@@ -421,33 +423,7 @@ h1, h2 {
     background: rgb(217, 124, 80);
 }
 
-/* alert message */
 
-.alert-success {
-    z-index: 1;
-    background: rgb(22, 44, 58);
-    font-size: 18px;
-    padding: 20px 40px;
-    min-width: 420px;
-    position: fixed;
-    right: 0;
-    top: 10px;
-    border-left: 8px sold rgb(219, 169, 136);
-    border-radius: 4px;
-}
-
-.alert-error {
-    z-index: 1;
-    background: rgb(214, 149, 118);
-    font-size: 18px;
-    padding: 20px 40px;
-    min-width: 420px;
-    position: fixed;
-    right: 0;
-    top: 10px;
-    border-left: 8px sold rgb(219, 169, 136);
-    border-radius: 4px;
-}
 
 
 /* footer */
