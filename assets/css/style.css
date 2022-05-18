@@ -7,19 +7,18 @@
 }
 
 body {
-    font-family: source sans pro, sans-serif;
+    font-family: "source sans pro", "sans-serif";
     font-weight: 300;
-    color: rgb(22, 44, 58);
     background-color: rgb(22, 44, 58);
 }
 
 /* headings and logo */
 
 h1, h2 {
-    font-family: fjalla one, sans-serif;
+    font-family: "fjalla one","sans-serif";
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: rgb(217, 124, 80);
+    color: #f6ac69;
 }
 
 #logo {
@@ -48,7 +47,7 @@ h1, h2 {
 
 #navbar li a {
     text-decoration: none;
-    color: rgb(217, 124, 80);
+    color: #f6ac69;
 }
 
 #navbar a:hover {
@@ -70,8 +69,8 @@ h1, h2 {
 }
 
 #background-img {
-    height: 600px;
     width: 100%;
+    height: 600px;
    background: url(../images/carl-barcelo-nqUHQkuVj3c-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -79,14 +78,14 @@ h1, h2 {
     opacity: 0.7;
    
 }
-
+/* about section start */
 .wrapper {
     margin-top: 4%;
     line-height: 120px;
 }
 
 .wrapper h1 {
-    font-family: fjalla one, sans-serif;
+    font-family: "fjalla one", "sans-serif";
     font-size: 220%;
     margin-bottom: 52px;
     text-align: center;
@@ -103,7 +102,7 @@ h1, h2 {
 
 
 .about .text-box {
-    background-color: rgb(250, 203, 181);
+    background-color: rgb(248, 247, 244);
     margin: 30px;
     margin-bottom: 50px;
     width: 350px;
@@ -115,12 +114,12 @@ h1, h2 {
 }
 
 .about .text-box h3 {
-    color: rgb(217, 124, 80);
+    color: rgb(22, 44, 58);
     font-size: 170%;
     text-transform: uppercase;
     margin: 12px 0;
     line-height: 60px;
-    font-family: fjalla one, source sans pro;
+    font-family: "fjalla one", "source sans pro";
 }
 
 .about .text-box p {
@@ -148,7 +147,11 @@ h1, h2 {
     transform: translateX(-50%);
 }
 
+/*  about section end */
 
+
+
+/* retreat section start */
 .container {
     width: 1280px;
     min-height: 300px;
@@ -183,7 +186,7 @@ h1, h2 {
 
 .container .box .image-box img {
     max-width: 100%;
-    height: 300px;
+    height: 290px;
     transition: transform 2s;
     border-radius: 10px;
 }
@@ -198,7 +201,7 @@ h1, h2 {
     left: 10px;
     bottom: 10px;
     right: 10px;
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, .7);
     transform: scaleY(0);
     transition: transform .5s;
 }
@@ -217,13 +220,14 @@ h1, h2 {
 .container .box .details .content h2 {
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(248, 247, 244);
 }
 
 .container .box .details .content p {
     margin: 10px 0 0;
     padding: 0;
+    font-size: 18px;
 }
 
 .heading-container {
@@ -232,97 +236,15 @@ h1, h2 {
 }
 
 .heading-container h1 {
-    font-family: fjalla one, sans-serif;
+    font-family: "fjalla one", "sans-serif";
     font-size: 220%;
     margin-bottom: 52px;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
 }
+/* retreat section end */
 
-
-/* media queries */
-
-/* for large to medium screens size from 950px and down */
-@media screen and (max-width:950px) {
-    .contact-section {
-        flex-direction: column;
-    }
-
-    .contact-info, .contact-form {
-        margin: 30px 50px;
-    }
-
-    .contact-form h2 {
-        font-size: 25px;
-    }
-
-    .contact-form .text {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width:800px) {
-    #navbar{
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-        display: inline;
-    }
- 
-    .about {
-        display: inline;
-        justify-content: center;
-        padding: 50px 0;
-        
-    }
-    
-
-    .container {
-        display: inline;
-        margin: 0 auto;
-    }
-
-    
-
-    .copyright-text {
-        padding: 8px 40px;
-    }
-
-
-}
-
-
-/* media queries medium screen size  */
-
-@media (max-width: 600px) {
-    #navbar{
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-        display: inline;
-    }
-    .about {
-        display: inline;
-    }
-
-    .container {
-        display: inline;
-        margin: 0 auto;
-        margin-right: 30px;
-        overflow: hidden;
-
-    }
-
-    .copyright-text {
-        padding: 8px 40px;
-    }
-
-}
 
 
 /* contact us */
@@ -360,7 +282,7 @@ h1, h2 {
 }
 
 .contact-form h2 {
-    color: rgb(217, 124, 80);
+    color: #f6ac69;
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
@@ -371,10 +293,10 @@ h1, h2 {
     background: rgba(0, 0, 0, 0.1);
     color: #fefcff;
     border: none;
-    width: calc(50%-10px);
+    width: 100%;
     height: 50px;
     padding: 12px;
-    font-size: 15px;
+    font-size: 20px;
 
     border-radius: 5px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -407,7 +329,7 @@ h1, h2 {
 .contact-form .send-btn{
     float: right;
     background: rgb(19, 32, 41);
-    color: rgb(219, 169, 136);
+    color: #f6ac69;
     border: none;
 
     width: 120px;
@@ -420,38 +342,35 @@ h1, h2 {
 }
 
 .contact-form .send-btn:hover {
-    background: rgb(217, 124, 80);
+    background: rgba(0, 0, 0, 0.1);
 }
 
-
-
+/* contact us end */
 
 /* footer */
 
 .footer {
     padding: 40px 0;
-    background-color: #fefcff;
+    background-color: rgb(22, 44, 58);
 }
 
 .footer .social {
     text-align: center;
     padding-bottom: 25px;
-    color: rgb(38, 25, 17);
+    color: rgb(219, 169, 136);
 }
 
 .footer .social a {
-    font-size: 24px;
-    color: rgb(38, 25, 17);
-    border: 1px solid #fefcff;
-    width: 40px;
-    height: 40px;
+    font-size: 26px;
+    color: rgb(219, 169, 136);
+    border: none;
+    width: 20px;
+    height: 20px;
     line-height: 30px;
     display: inline-block;
     text-align: center;
-    border-radius: 50%;
-    margin: 0 8px;
-    opacity: 0.7;
-}
+    margin: 0 15px;
+    }
 
 .footer .social a:hover {
     opacity: 0.9;
@@ -468,9 +387,9 @@ h1, h2 {
 }
 
 .footer ul li a {
-     color: rgb(38, 25, 17);
+     color: rgb(219, 169, 136);
      text-decoration: none;
-     opacity: 0.8;
+    
 }
 
 .footer ul li {
@@ -482,11 +401,105 @@ h1, h2 {
 .footer ul li:hover {
     opacity: 1;
 }
+/* footer end */
 
 .copyright-text {
     margin-top: 15px;
     text-align: center;
     font-size: 18px;
     color: rgb(124, 98, 105);
+}
+
+/* media queries */
+@media screen and (max-width:500px) {
+    .responsive {
+        padding: 0px 25px;
+    }
+
+    .responsive img {
+        width: 100%;
+        height: auto;
+    }
+}
+/* for large to medium screens size from 950px and down */
+@media screen and (max-width:950px) {
+    .contact-section {
+        flex-direction: column;
+    }
+
+    .contact-info, .contact-form {
+        margin: 30px 50px;
+    }
+
+    .contact-form h2 {
+        font-size: 25px;
+    }
+
+    .contact-form .text {
+        width: 100%;
+    }
+}
+
+/* media queries for medium screen */
+
+@media screen and (max-width:800px) {
+    #navbar{
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        display: inline;
+    }
+ 
+    .about {
+        display: inline;
+        justify-content: center;
+        padding: 50px 0;
+        
+    }
+    
+
+    .container {
+        display: inline;
+        margin: 0 auto;
+    }
+
+    
+
+    .copyright-text {
+        padding: 8px 40px;
+    }
+
+
+}
+
+
+/* media queries medium to small screen size  */
+
+@media (max-width: 600px) {
+    #navbar{
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        display: inline;
+    }
+    .about {
+        display: inline;
+    }
+
+    .container {
+        display: inline;
+        margin: 0 auto;
+        margin-right: 30px;
+        overflow: hidden;
+
+    }
+
+    .copyright-text {
+        padding: 8px 40px;
+    }
 
 }
