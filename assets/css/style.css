@@ -152,100 +152,41 @@ h1, h2 {
 
 
 /* retreat section start */
-.container {
-    width: 1280px;
-    min-height: 300px;
-    background: rgb(22, 44, 58);
-    margin: 20px auto 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 4%;
-    padding-bottom: 30px;
-    
-    
-}
-
-.container .box {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    background: rgb(22, 44, 58);
-    margin: 10px;
-    box-sizing: border-box;
-    display: inline-block;
-    
-}
 
 
-.container .box .image-box {
-    position: relative;
-    overflow: hidden;
-
-}
-
-.container .box .image-box img {
-    max-width: 100%;
-    height: 290px;
-    transition: transform 2s;
-    border-radius: 10px;
-}
-
-.container .box:hover .image-box img {
-    transform: scale(1.2)
-}
-
-.container .box .details {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    bottom: 10px;
-    right: 10px;
-    background: rgba(0, 0, 0, .7);
-    transform: scaleY(0);
-    transition: transform .5s;
-}
-
-.container .box:hover .details {
-    transform: scaleY(1);
-}
-
-.container .box .details .content {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: rgb(248, 247, 244);
-}
-.container .box .details .content h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 25px;
-    color: rgb(248, 247, 244);
-}
-
-.container .box .details .content p {
-    margin: 10px 0 0;
-    padding: 0;
-    font-size: 18px;
-}
-
-.heading-container {
-    margin-top: 4%;
-    line-height: 120px;
-}
-
-.heading-container h1 {
-    font-family: "fjalla one", "sans-serif";
-    font-size: 220%;
-    margin-bottom: 52px;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-}
 /* retreat section end */
 
+section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+width: 100%;
+border: none;
+padding: 0 1em 1em 1em;
+text-align: center;
+}
+
+.card {
+    border: 1px solid #fefcff;
+    width: 100%;
+    height: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(#fefcff 50%, #f6ac69 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
 
 /* contact us */
  
